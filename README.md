@@ -1,2 +1,1 @@
-# Tindog
-Find your dog a mate
+TinDog Starting Files

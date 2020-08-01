@@ -111,6 +111,14 @@ i:hover {
   text-align: center;
 }
 
+.carousel-control-prev{
+  padding-right: 149px;
+}
+
+.carousel-control-next{
+  padding-left: 149px;
+}
+
 .testimonial-image {
   border-radius: 100%;
   width: 10%;

@@ -47,7 +47,7 @@
   </head>
 
   <body>
-    <div class="title">
+    <div id="title">
       <div class="container-fluid">
         <!-- Nav Bar -->
         <nav class="navbar navbar-expand-lg navbar-dark">
@@ -80,7 +80,7 @@
         <!-- Title -->
         <div class="row">
           <div class="col-lg-6">
-            <h1>Meet new and interesting dogs nearby.</h1>
+            <h1 class="big-heading">Meet new and interesting dogs nearby.</h1>
             <button type="button" class="btn btn-dark btn-lg download-button">
               <i class="fab fa-apple"></i> Download
             </button>
@@ -103,28 +103,30 @@
     </div>
     <!-- Features -->
     <section class="features">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-12">
-            <p class="feature-icon">
-              <i class="fas fa-check-circle fa-5x feature-icon-color"></i>
-            </p>
-            <h3>Easy to use.</h3>
-            <p>So easy to use, even your dog could do it.</p>
-          </div>
-          <div class="col-lg-4">
-            <p class="feature-icon">
-              <i class="fas fa-bullseye fa-5x feature-icon-color"></i>
-            </p>
-            <h3>Elite Clientele</h3>
-            <p>We have all the dogs, the greatest dogs.</p>
-          </div>
-          <div class="col-lg-4">
-            <p class="feature-icon">
-              <i class="fas fa-heart fa-5x feature-icon-color"></i>
-            </p>
-            <h3>Guaranteed to work.</h3>
-            <p>Find the love of your dog's life or your money back.</p>
+      <div class="container-fluid">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12">
+              <p class="feature-icon">
+                <i class="fas fa-check-circle fa-5x feature-icon-color"></i>
+              </p>
+              <h3 class="feature-title">Easy to use.</h3>
+              <p>So easy to use, even your dog could do it.</p>
+            </div>
+            <div class="col-lg-4">
+              <p class="feature-icon">
+                <i class="fas fa-bullseye fa-5x feature-icon-color"></i>
+              </p>
+              <h3 class="feature-title">Elite Clientele</h3>
+              <p>We have all the dogs, the greatest dogs.</p>
+            </div>
+            <div class="col-lg-4">
+              <p class="feature-icon">
+                <i class="fas fa-heart fa-5x feature-icon-color"></i>
+              </p>
+              <h3 class="feature-title">Guaranteed to work.</h3>
+              <p>Find the love of your dog's life or your money back.</p>
+            </div>
           </div>
         </div>
       </div>
@@ -133,11 +135,10 @@
     <!-- Testimonials -->
 
     <section id="testimonials">
-      <div class="container">
-        <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
           <div class="carousel-inner">
-            <div class="carousel-item active">
-              <h2>
+            <div class="carousel-item active container-fluid">
+              <h2 class="testimonial-text">
                 I no longer have to sniff other dogs for love. I've found the
                 hottest Corgi on TinDog. Woof.
               </h2>
@@ -148,7 +149,7 @@
               />
               <em>Pebbles, New York</em>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item container-fluid">
               <h2 class="testimonial-text">
                 My dog used to be so lonely, but with TinDog's help, they've
                 found the love of their life. I think.
@@ -162,7 +163,7 @@
             </div>
           </div>
           <a
-            class="carousel-control-prev carousel-control-prev"
+            class="carousel-control-prev"
             href="#testimonial-carousel"
             role="button"
             data-slide="prev"
@@ -170,7 +171,7 @@
             <span class="carousel-control-prev-icon"></span>
           </a>
           <a
-            class="carousel-control-next carousel-control-next"
+            class="carousel-control-next"
             href="#testimonial-carousel"
             role="button"
             data-slide="next"
@@ -178,8 +179,7 @@
             <span class="carousel-control-next-icon"></span>
           </a>
         </div>
-      </div>
-    </section>
+     </section>
 
     <!-- Press -->
 
@@ -187,11 +187,7 @@
       <div class="container">
         <img class="press-logo" src="images/tech-crunch.png" alt="tc-logo" />
         <img class="press-logo" src="images/tnw.png" alt="tnw-logo" />
-        <img
-          class="press-logo"
-          src="images/bizinsider.png"
-          alt="biz-insider-logo"
-        />
+        <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo" />
         <img class="press-logo" src="images/mashable.png" alt="mashable-logo" />
       </div>
     </section>
@@ -199,8 +195,8 @@
     <!-- Pricing -->
 
     <section id="pricing">
-      <h2>A Plan for Every Dog's Needs</h2>
-      <p>Simple and affordable price plans for your and your dog.</p>
+      <h2 class="section-heading">A Plan for Every Dog's Needs</h2>
+      <p class="section-paragraph">Simple and affordable price plans for your and your dog.</p>
 
       <div class="row">
         <div class="dog-card col-lg-4 col-md-6">
@@ -209,7 +205,7 @@
               <h3>Chihuahua</h3>
             </div>
             <div class="card-body">
-              <h2>Free</h2>
+              <h2 class="pricing-text">Free</h2>
               <p>5 Matches Per Day</p>
               <p>10 Messages Per Day</p>
               <p>Unlimited App Usage</p>
@@ -229,7 +225,7 @@
               <h3>Labrador</h3>
             </div>
             <div class="card-body">
-              <h2>$49 / mo</h2>
+              <h2 class="pricing-text">$49 / mo</h2>
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
               <p>Unlimited App Usage</p>
@@ -246,8 +242,7 @@
               <h3>Mastiff</h3>
             </div>
             <div class="card-body">
-              <h2>$99 / mo</h2>
-              <p>Pirority Listing</p>
+              <h2 class="pricing-text">$99 / mo</h2>
               <p>Unlimited Matches</p>
               <p>Unlimited Messages</p>
               <p>Unlimited App Usage</p>
@@ -262,15 +257,17 @@
     <!-- Call to Action -->
 
     <section id="cta">
-      <div class="row">
-        <div class="col">
-          <h3>Find the True Love of Your Dog's Life Today.</h3>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <h3>Find the True Love of Your Dog's Life Today.</h3>
+          </div>
         </div>
-      </div>
-      <div class="row cta-buttons">
-        <div class="col">
-          <button type="button" class="btn btn-dark btn-lg download-button-cta "><i class="fab fa-apple"></i> Download</button>
-          <button type="button" class="btn btn-light btn-lg download-button-cta"><i class="fab fa-google-play"></i> Download</button>
+        <div class="row cta-buttons">
+          <div class="col">
+            <button type="button" class="btn btn-dark btn-lg download-button-cta "><i class="fab fa-apple"></i> Download</button>
+            <button type="button" class="btn btn-light btn-lg download-button-cta"><i class="fab fa-google-play"></i> Download</button>
+          </div>
         </div>
       </div>
     </section>
@@ -278,17 +275,19 @@
     <!-- Footer -->
 
     <footer id="footer">
-      <div class="row">
-        <div class="col">
-          <i class="fab fa-twitter social-media-logos"></i>
-          <i class="fab fa-facebook-f social-media-logos"></i>
-          <i class="fab fa-instagram social-media-logos"></i>
-          <i class="fas fa-envelope social-media-logos"></i>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <i class="fab fa-twitter social-media-logos"></i>
+            <i class="fab fa-facebook-f social-media-logos"></i>
+            <i class="fab fa-instagram social-media-logos"></i>
+            <i class="fas fa-envelope social-media-logos"></i>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col">
-          <p>© Copyright 2018 TinDog</p>
+        <div class="row">
+          <div class="col">
+            <p>© Copyright 2018 TinDog</p>
+          </div>
         </div>
       </div>
     </footer>
